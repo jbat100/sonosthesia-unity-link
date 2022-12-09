@@ -52,6 +52,16 @@
         "com.sonosthesia.utils": "1.0.0"
       }
     },
+    "com.sonosthesia.rtmidi": {
+      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-rtmidi/com.sonosthesia.rtmidi",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "jp.keijiro.rtmidi": "1.0.4",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.midi": "1.0.1"
+      }
+    },
     "com.sonosthesia.spawn": {
       "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-spawn/com.sonosthesia.spawn",
       "depth": 0,
@@ -233,6 +243,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "jp.keijiro.rtmidi": {
+      "version": "1.0.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

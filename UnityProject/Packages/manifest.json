@@ -46,6 +46,7 @@
     "com.sonosthesia.flow": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-flow/com.sonosthesia.flow",
     "com.sonosthesia.midi": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-midi/com.sonosthesia.midi",
     "com.sonosthesia.adaptivemidi": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-adaptivemidi/com.sonosthesia.adaptivemidi",
+    "com.sonosthesia.rtmidi": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-rtmidi/com.sonosthesia.rtmidi",
     "com.sonosthesia.spawn": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-spawn/com.sonosthesia.spawn"
   },
   "scopedRegistries": [
@@ -55,6 +56,13 @@
       "scopes": [
         "com.neuecc.unirx",
         "com.cysharp.unitask"
+      ]
+    },
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
       ]
     },
     {
