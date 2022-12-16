@@ -15,7 +15,7 @@
       "url": "https://package.openupm.com"
     },
     "com.sonosthesia.adaptivemidi": {
-      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-adaptivemidi/com.sonosthesia.adaptivemidi",
+      "version": "file:../../../sonosthesia-unity-adaptivemidi/com.sonosthesia.adaptivemidi",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -23,7 +23,7 @@
       }
     },
     "com.sonosthesia.flow": {
-      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-flow/com.sonosthesia.flow",
+      "version": "file:../../../sonosthesia-unity-flow/com.sonosthesia.flow",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -33,16 +33,20 @@
       }
     },
     "com.sonosthesia.link": {
-      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-link/com.sonosthesia.link",
+      "version": "file:../../com.sonosthesia.link",
       "depth": 0,
       "source": "local",
       "dependencies": {
         "com.sonosthesia.midi": "1.0.0",
-        "com.sonosthesia.spawn": "1.0.0"
+        "com.sonosthesia.spawn": "1.0.0",
+        "com.sonosthesia.adaptivemidi": "1.0.0",
+        "com.sonosthesia.flow": "1.0.0",
+        "com.sonosthesia.rtmidi": "1.0.0",
+        "com.sonosthesia.utils": "1.0.0"
       }
     },
     "com.sonosthesia.midi": {
-      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-midi/com.sonosthesia.midi",
+      "version": "file:../../../sonosthesia-unity-midi/com.sonosthesia.midi",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -53,7 +57,7 @@
       }
     },
     "com.sonosthesia.rtmidi": {
-      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-rtmidi/com.sonosthesia.rtmidi",
+      "version": "file:../../../sonosthesia-unity-rtmidi/com.sonosthesia.rtmidi",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -63,7 +67,7 @@
       }
     },
     "com.sonosthesia.spawn": {
-      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-spawn/com.sonosthesia.spawn",
+      "version": "file:../../../sonosthesia-unity-spawn/com.sonosthesia.spawn",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -73,7 +77,7 @@
       }
     },
     "com.sonosthesia.utils": {
-      "version": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-utils/com.sonosthesia.utils",
+      "version": "file:../../../sonosthesia-unity-utils/com.sonosthesia.utils",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -99,7 +103,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.17.2",
+      "version": "1.17.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -115,7 +119,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.15",
+      "version": "3.0.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -154,7 +158,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "14.0.3",
+      "version": "14.0.4",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -165,14 +169,14 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "14.0.3",
+      "version": "14.0.4",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.7.3",
-        "com.unity.render-pipelines.core": "14.0.3",
-        "com.unity.shadergraph": "14.0.3"
+        "com.unity.render-pipelines.core": "14.0.4",
+        "com.unity.shadergraph": "14.0.4"
       }
     },
     "com.unity.searcher": {
@@ -183,7 +187,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.4.3",
+      "version": "1.6.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -194,11 +198,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "14.0.3",
+      "version": "14.0.4",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "14.0.3",
+        "com.unity.render-pipelines.core": "14.0.4",
         "com.unity.searcher": "4.9.2"
       }
     },
@@ -223,7 +227,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.7.1",
+      "version": "1.7.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -244,12 +248,12 @@
       }
     },
     "com.unity.visualeffectgraph": {
-      "version": "14.0.3",
+      "version": "14.0.4",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.shadergraph": "14.0.3",
-        "com.unity.render-pipelines.core": "14.0.3"
+        "com.unity.shadergraph": "14.0.4",
+        "com.unity.render-pipelines.core": "14.0.4"
       }
     },
     "com.unity.visualscripting": {
