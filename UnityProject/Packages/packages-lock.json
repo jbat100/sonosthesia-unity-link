@@ -38,11 +38,7 @@
       "source": "local",
       "dependencies": {
         "com.sonosthesia.midi": "1.0.0",
-        "com.sonosthesia.spawn": "1.0.0",
-        "com.sonosthesia.adaptivemidi": "1.0.0",
-        "com.sonosthesia.flow": "1.0.0",
-        "com.sonosthesia.rtmidi": "1.0.0",
-        "com.sonosthesia.utils": "1.0.0"
+        "com.sonosthesia.spawn": "1.0.0"
       }
     },
     "com.sonosthesia.midi": {
@@ -52,8 +48,7 @@
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
         "com.sonosthesia.adaptivemidi": "1.0.0",
-        "com.sonosthesia.flow": "1.0.0",
-        "com.sonosthesia.utils": "1.0.0"
+        "com.sonosthesia.flow": "1.0.0"
       }
     },
     "com.sonosthesia.rtmidi": {
@@ -72,8 +67,7 @@
       "source": "local",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.flow": "1.0.0",
-        "com.sonosthesia.utils": "1.0.0"
+        "com.sonosthesia.flow": "1.0.0"
       }
     },
     "com.sonosthesia.utils": {
